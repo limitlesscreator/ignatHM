@@ -1,0 +1,48 @@
+.messageBlock {
+    width: 500px;
+    height: 150px;
+    background-color: greenyellow;
+    display: flex;
+}
+
+.avatar img {
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 3px red;
+    margin-top: 100%;
+}
+
+.message {
+    border-radius: 10px 10px 10px 0;
+    position: relative;
+    width: 300px;
+    height: 100px;
+    background: #123e34;
+    color: white;
+    padding: 10px 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.tail {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    clip-path: polygon(0 100%, 21% 94%, 30% 90%, 42% 83%, 55% 73%, 65% 62%, 75% 49%, 86% 32%, 93% 19%, 100% 0, 100% 100%);
+    transform: translateX(-99%);
+    background: #123e34;
+}
+.name{
+    margin-bottom: 5px;
+    color: #906eff;
+}
+.time{
+    position: absolute;
+    right: 10px;
+    bottom: 7px;
+    opacity: .4;
+}
