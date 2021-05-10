@@ -12,7 +12,7 @@ function HW3() {
     const [users, setUsers] = useState<any>([]); // need to fix any
 
     const addUserCallback = (name: any) => { // need to fix any
-        setUsers([]); // need to fix
+        setUsers([...users,name]);
     }
 
     return (
